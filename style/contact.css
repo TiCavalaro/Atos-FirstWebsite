@@ -95,7 +95,8 @@ img{
 }
 
 .hero__title{
-    background-color: #68468C ;
+    background-color: rgba(104,70,140,.8);
+
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -122,8 +123,6 @@ img{
     font-size: 14px;
     word-spacing: 3px;
 }
-
-
 
 
 .quote-container{

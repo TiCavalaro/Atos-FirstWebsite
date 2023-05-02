@@ -86,36 +86,6 @@ img{
     padding: 0 50px;
     color: white;
 }
-.js .quote-slideshow figure h2{
-    margin-top: 0;
-}
-.js .quote-slideshow figure{
-    opacity: 0;
-    transition: 1s opacity;
-    position: absolute;
-    top: 0;
-    left: 50px;
-    right: 50px;
-    box-sizing: border-box;
-    margin: 0;
-}
-.js .quote-slideshow figure.show{
-    opacity: 1;
-    position: static;
-    
-}
-.js .quote-slideshow .prev, .js .quote-slideshow .next{
-    z-index: 3;
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-}
-.js .quote-slideshow .prev{
-    left: 10px;
-}
-.js .quote-slideshow .next{
-    right: 10px;
-}
 
 
 .hero{
@@ -134,7 +104,8 @@ img{
 }
 
 .hero__title{
-    background-color: #68468C ;
+    background-color: rgba(104,70,140,.8);
+
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -247,30 +218,10 @@ img{
     color: white;
 }
 
-
-
-
 .quote-container{
     background-color: #68468C;
     padding: 50px 0;
     border-bottom: 12px solid #68468C;
-}
-
-.quote-slideshow h2{
-    color: white;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: normal;
-}
-
-.quote-slideshow figcaption{
-    color: white;
-    font-size: 18px;
-    text-align: center;
-}
-
-.no-js .quote-slideshow figure + figure{
-    margin-top: 5em;
 }
 
 
